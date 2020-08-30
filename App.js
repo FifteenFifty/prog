@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Linking, StyleSheet, Text, View } from 'react-native';
 import { Progress, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import gameData from "./data.json";
@@ -150,14 +150,14 @@ export default class App extends Component {
             Love this game? Why not{' '}
           </Text>
           <Text style={styles.hyperlink}
-                onPress={() => Linking.openURL("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DGRKE2P4M8XFS&currency_code=GBP&source=url")}>
+                onPress={() => Linking.openURL("https://paypal.me/FifteenFifty")}>
             donate
           </Text>
           <Text style={{fontSize: 10}}>
             {' '}or{' '}
           </Text>
           <Text style={styles.hyperlink}
-                onPress={() => Linking.openURL("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DGRKE2P4M8XFS&currency_code=GBP&source=url")}>
+                onPress={() => Linking.openURL("https://github.com/FifteenFifty/prog/")}>
             contribute
           </Text>
         </View>
