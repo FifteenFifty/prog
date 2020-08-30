@@ -1,0 +1,33 @@
+{
+  "files": {
+    "app.js": "/prog/static/js/app.919db510.chunk.js",
+    "app.js.map": "/prog/static/js/app.919db510.chunk.js.map",
+    "runtime~app.js": "/prog/static/js/runtime~app.5e65f23f.js",
+    "runtime~app.js.map": "/prog/static/js/runtime~app.5e65f23f.js.map",
+    "static/js/2.7029d554.chunk.js": "/prog/static/js/2.7029d554.chunk.js",
+    "static/js/2.7029d554.chunk.js.map": "/prog/static/js/2.7029d554.chunk.js.map",
+    "fonts/brand-icons.eot": "/prog/./fonts/brand-icons.eot",
+    "fonts/brand-icons.ttf": "/prog/./fonts/brand-icons.ttf",
+    "fonts/brand-icons.woff": "/prog/./fonts/brand-icons.woff",
+    "fonts/brand-icons.woff2": "/prog/./fonts/brand-icons.woff2",
+    "fonts/icons.eot": "/prog/./fonts/icons.eot",
+    "fonts/icons.ttf": "/prog/./fonts/icons.ttf",
+    "fonts/icons.woff": "/prog/./fonts/icons.woff",
+    "favicon-16.png": "/prog/favicon-16.png",
+    "favicon-32.png": "/prog/favicon-32.png",
+    "favicon.ico": "/prog/favicon.ico",
+    "index.html": "/prog/index.html",
+    "manifest.json": "/prog/manifest.json",
+    "serve.json": "/prog/serve.json",
+    "static/js/2.7029d554.chunk.js.LICENSE.txt": "/prog/static/js/2.7029d554.chunk.js.LICENSE.txt",
+    "static/media/brand-icons.svg": "/prog/static/media/brand-icons.6729d297.svg",
+    "static/media/flags.png": "/prog/static/media/flags.99f63ae7.png",
+    "static/media/icons.svg": "/prog/static/media/icons.62d9dae4.svg",
+    "static/media/outline-icons.svg": "/prog/static/media/outline-icons.9c4845b4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.5e65f23f.js",
+    "static/js/2.7029d554.chunk.js",
+    "static/js/app.919db510.chunk.js"
+  ]
+}
