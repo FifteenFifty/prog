@@ -1,0 +1,61 @@
+{
+  "difficulties": {
+    "sEasy": {
+      "title": "Super Easy",
+      "description": "About a minute",
+      "target": 60
+    },
+    "vEasy": {
+      "title": "Very easy",
+      "description": "About a dozen minutes",
+      "target": 720
+    },
+    "easy": {
+      "title": "Easy",
+      "description": "About thirty minutes",
+      "target": 1800
+    },
+    "medium": {
+      "title": "Medium",
+      "description": "About an hour",
+      "target": 3600
+    },
+    "hard": {
+      "title": "Hard",
+      "description": "About six hours",
+      "target": 21600
+    },
+    "pHard": {
+      "title": "Pretty hard",
+      "description": "About a day",
+      "target": 86400
+    },
+    "vHard": {
+      "title": "Very hard",
+      "description": "About a week",
+      "target": 604800
+    },
+    "sHard": {
+      "title": "Super hard",
+      "description": "About a February",
+      "target": 2419200
+    },
+    "what": {
+      "title": "Why would you even choose this?",
+      "description": "About a year",
+      "target": 31536000
+    }
+  },
+  "motivation": [
+    "You can do it!",
+    "You're almost there",
+    "This is such fun!",
+    "You've totally got this",
+    "You're the best",
+    "You've completely mastered this game's mechanics",
+    "Good job with the progress",
+    "Keep it up!",
+    "Great job getting this far, keep going!",
+    "Hours of fun! (*as long as you choose the right difficulty)"
+  ]
+}
