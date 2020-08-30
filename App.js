@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Linking, StyleSheet, Text, View } from 'react-native';
+import { Platform, Linking, StyleSheet, Text, View } from 'react-native';
 import { Progress, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import gameData from "./data.json";
@@ -67,6 +67,14 @@ export default class App extends Component {
     data.parent.setState(Object.assign({}, data.parent.defaultState))
     // Unsave the game
     localStorage.removeItem("ProgState");
+  }
+
+  goToUrl(url) {
+    if (Platform.OS === "web") {
+      window.open(url, "_blank");
+    } else {
+      Linking.openURL(url)
+    }
   }
 
   render() {
@@ -150,14 +158,14 @@ export default class App extends Component {
             Love this game? Why not{' '}
           </Text>
           <Text style={styles.hyperlink}
-                onPress={() => Linking.openURL("https://paypal.me/FifteenFifty")}>
+                onPress={() => this.goToUrl("https://paypal.me/FifteenFifty")}>
             donate
           </Text>
           <Text style={{fontSize: 10}}>
             {' '}or{' '}
           </Text>
           <Text style={styles.hyperlink}
-                onPress={() => Linking.openURL("https://github.com/FifteenFifty/prog/")}>
+                onPress={() => this.goToUrl("https://github.com/FifteenFifty/prog/")}>
             contribute
           </Text>
         </View>
